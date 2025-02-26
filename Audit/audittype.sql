@@ -1,4 +1,4 @@
---to check  if standard/fga/unified/mixed mode audit
+--to check  if standard/fga/unified/mixed mode auditing
 
 SELECT 'Standard Auditing' AS AUDIT_TYPE, (CASE WHEN (UPPER(value) IN ('DB', 'XML', 'OS', 'DB_EXTENDED', 'XML_EXTENDED')) THEN 'Enabled' ELSE 'Disabled' END) AS STATUS
 FROM v$parameter
