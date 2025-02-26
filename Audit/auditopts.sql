@@ -1,4 +1,4 @@
---to check all standard audit options enabled
+--To check all standard audit options enabled
 Col user_name for a20
 Col audit_option for a30;
 SELECT user_name, audit_option AS audit_option, success, failure
